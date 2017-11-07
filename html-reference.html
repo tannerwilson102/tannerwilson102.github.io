@@ -1,69 +1,139 @@
 <!DOCTYPE html>
 <html>
-<title>HTML Tutorial</title>
-<body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-
+  <head>
+    <title>HTML Reference</title>
+  </head>
+  <body>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<h1>HTML Reference page: Dhanya Jakkula</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th>
+    <th>End tag</th>
+    <th>example</th>
+  </tr>
+  <tr>
+    <td><a href="#html">Html</a></td>
+    <td>&lt;html&gt;</td>
+    <td>&lt;&sol;html&gt;</td>
+    <td>&lt;html&gt;head and body&lt;&sol;html&gt;</td>
+    </tr>
+  <tr>
+    <td><a href="#head">Head</a></td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;&sol;title&gt;</td>
+    <td>&lt;title&gt;heading&lt;&sol;title&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#body">body</a></td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;&sol;body&gt;</td>
+    <td>&lt;body&gt;content&lt;&sol;body&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#headings">headings</a></td>
+    <td>&lt;h1&gt;</td>
+    <td>&lt;&sol;h1&gt;</td>
+    <td>&lt;h1&gt;headingt&lt;&sol;h1&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#paragraphs">paragraphs</a></td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;&sol;p&gt;</td>
+    <td>&lt;p&gt;text&lt;&sol;p&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#breaks">body</a></td>
+    <td>&lt;br&gt;</td>
+    <td>none</td>
+    <td>&lt;br&gt;content&lt;br&gt;more content</td>
+    </tr>
+<tr>    
+    <td><a href="#lines">lines</a></td>
+    <td>&lt;hr&gt;</td>
+    <td>none</td>
+    <td>&lt;hr&gt;content&lt;hr&gt;more content</td>
+    </tr>
+ <td><a href="#comments">comments</a></td>
+    <td>&lt;!--comment--&gt;</td>
+    <td>none</td>
+    <td>&lt;!--comment--&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#links">links</a></td>
+    <td>&lt;a href="url"&gt;</td>
+    <td>&lt;&sol;a&gt;</td>
+    <td>&lt;a href="url"&gt;hyperlink text&lt;&sol;a&gt;</td>
+    </tr>
+ <td><a href="#images">images</a></td>
+    <td>&lt;img src="url"&gt;</td>
+    <td>none</td>
+    <td>&lt;img src="url"&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#lists">lists</a></td>
+    <td>&lt;ul or ol&gt;&lt;li&gt;</td>
+    <td>&lt;&sol;ul or ol&gt;&lt;&sol;li&gt;</td>
+    <td>&lt;ul&gt;&lt;li&gt;item&lt;&sol;li&gt;&lt;&sol;ul&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#tables"></a></td>
+    <td>&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;td&gt;</td>
+    <td>&lt;&sol;table&gt;&lt;&sol;tr&gt;&lt;&sol;th&gt;&lt;&sol;td&gt;</td>
+    <td>&lt;table&gt;&lt;tr&gt;headings and data&lt;&sol;tr&gt;&lt;&sol;table&gt;</td>
+    </tr>
+  </table>
+<h2>Main Requirements</h2>
+<p>You must always have 4 main elements to organize and constitute our page. They are:</p>
+<li>!DOCTYPE - It tells the program what language is being used.</li>
+<li>html - This also tells the program the language</li>
+<li>head - It sorts your code so that you ca easily edit your titles.</li>
+<li>body - This also helps sort your code so you can access paragraphs and headings easily.</li>
+</ul>
+<h2>Head</h2>
+<p>Within the head, there is only one element which is he title. The title is what is listed at the top of the tag.For example, mine's is "HTML Reference."</p>
+<h2>Body</h2>
+<p>Within the body, there are many elements to organize your content.</p>
+<b>Headings:</b><p> They title your paragraphs. You can also change the size of headings by putting numbers next to them. For example, a tag could be h1 is bigger than h2.</p>
+<b>Pargraphs:</b><p>Pargraphs were used throughout this site; infact right now. It is just regular text. The tag is < p >.</p>
+<b>Breaks:</b><p>Breaks make breaks within your site. <br>For<br> Example,<br> right <br> now.<br>The tag is br.</p> 
+<b>Lines</b><p>Yo can make lines between<hr> your text. <hr> like this<hr> The tag is hr.</p>
+<b>Comments:</b><p>You can make comments in HTML that can only be viewed through the source code. You will need this tag: !--comment--. If you look at the source code, you can see my comment.</p> <!--hello stalker-->
+<b>Links:</b><p>In order to link a site, you need the a tag. The syntax should look like this < a href="url">hyperlink text< /a>. For example,</p> <a href="https://www.w3schools.com/html/html_links.asp">my source of knowlege for this part.</a>
+<b>Images:</b><p>The tag < img > can be used to add and image. The  < img src ="url"> No end tag s needed. For example <img src="https://static.pexels.com/photos/36753/flower-purple-lical-blosso.jpg"></p><p>You can also change size by writing width and height = </p>
+<b>Lists:</b><p>We can make list that are numbered or bulleted.First define which kind you want:
+Bulleted= ul and numbered= ol. Then write li in front of each listed item.</p>
+It should <ul>
+    <li>look</li>
+    <li>like</li>
+    <li>this</li>
+</ul>
+<ol>
+    <li>or</li>
+    <li>like</li>
+    <li>this</li>
+</ol>
+<b>Tables:</b><p>Tables need 3 tags: < table >, < tr>, and < th>.</p>
 <table style="width:100%">
- <tr>
-   <th>Firstname</th>
-   <th>Lastname</th>
-   <th>Age</th>
- </tr>
- <tr>
-   <td>Jill</td>
-   <td>Smith</td>
-   <td>50</td>
- </tr>
- <tr>
-   <td>Eve</td>
-   <td>Jackson</td>
-   <td>94</td>
- </tr>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
 </table>
+<p>It should look like this.</p>
+<b>Blocks:</b><p>The tag is < div >. It makes blocks that <div>,,,,,,......,,,,,,</div> seperate paragraphs.</p>
 
-
-This text contains<br>a line break.
-
-
-<ul style="list-style-type:disc">
- <li>Jane</li>
- <li>Billy</li>
- <li>George</li>
-</ul>
-
-<title>This is a title.</title>
-
-<head>This is a head.<head>
-
-<!-- Write your comments here -->
-
-
-<div style="background-color:black;color:white;padding:20px;">
- <h2>London</h2>
- <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-</div>
-
-
-<ul>
- <li>This</li>
- <li>Belle</li>
- <li>Ariel</li>
-</ul>
-
-
-<div>This is</div>
-<div>A block</div>
-
-
-<img src="img_chania.jpg" alt="Flowers in Chania, this is an image">
-
-<a href="https://www.w3schools.com/html/">This is a link</a>
-
-<hr>This is a line.></hr>
-
-</body>
+  </body>
 </html>
