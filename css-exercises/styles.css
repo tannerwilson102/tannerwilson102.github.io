@@ -1,19 +1,17 @@
-p {
-  color: red;
+
+p{
+  color:red;
 }
-
-
 #id1 {
-  color: blue;
-  font-family: verdana;
+  color:red;
 }
-
-#id2 {
+.center {
   text-align: center;
-  color: red;
+  color:blue;
 }
-
-.bluev p {
-  color: blue;
-  font-family: verdana;
+h1 {
+  text-align: right;
+}
+.bob h2{
+  color:red;
 }
