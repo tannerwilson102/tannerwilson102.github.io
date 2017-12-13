@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Dueling Draco</h1>
+  <p>Have fun learning and playing the amazing game known as Yu-Gi-Oh</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="wyugioh.html">What is Yu-Gi-Oh</a>
+  <a href="rules.html">Rules</a>
+  <a href="cardtypes.html">Card Types</a>
+  <a href="attributetypes.html">Attributes and Types</a>
+  <a href="howtoplay.html">Tutorial</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <img class="columnimage2" src="https://vignette.wikia.nocookie.net/yugioh/images/d/d7/Back-Anime-DM.png/revision/latest?cb=20071029201207">
+    <img class="columnimage2" src="https://vignette.wikia.nocookie.net/yugioh/images/e/ef/Back-BAM-EN-VG-Field.png/revision/latest?cb=20120908092721">
+
+  </div>
+  <div class="column middle">
+    <h2>What is Yu-Gi-Oh</h2>
+    <p>Yugioh is a Japanese collectible card game developed and published by Konami. The game was launched by Konami in 1998. It was named the top selling trading card game in the world by Guinness World Records on July 7, 2009, having sold over 22 billion cards worldwide. Konami is the manufacturer and distributor of the Yu-Gi-Oh! TCG. It runs Regional and National tournaments and continues to release new Yu-Gi-Oh! TCG card products.</p>
+    <p>There are several video games based on the Yu-Gi-Oh! franchise which are published by Konami, the majority of which are based on the trading card game, and some based on other games that appeared in the manga. Aside from various games released for consoles and handheld systems, arcade machines known as Duel Terminals have been released which are compatible with certain cards in the trading card game.</p>
+  </div>
+  <div class="column side">
+    <img class="columnimage2" src="https://i.pinimg.com/736x/c6/4e/a3/c64ea38e58ab38e3a340fb0b40ae8aa9--yu-gi-oh-jpg.jpg">
+    <img class="columnimage2" src="https://vignette.wikia.nocookie.net/yugioh/images/e/ef/Back-BAM-EN-VG-Field.png/revision/latest?cb=20120908092721">
+  </div>
+</div>
+
+  
+</body>
+</html>
