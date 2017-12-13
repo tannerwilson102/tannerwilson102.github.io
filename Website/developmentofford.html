@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Dueling Draco</h1>
+  <p>Have fun learning and playing the amazing game known as Yu-Gi-Oh</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="wyugioh.html">What is Yu-Gi-Oh</a>
+  <a href="rules.html">Rules</a>
+  <a class="active" href="cardtypes.html">Card Types</a>
+  <a href="attributetypes.html">Attributes and Types</a>
+  <a href="howtoplay.html">Tutorial</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <img class="columnimage2" src="http://www.cielsolade.com/wp-content/uploads/2015/11/pillar.png">
+    <img class="columnimage2" src="https://cdn.instructables.com/F3U/GLWK/HGZO4AGD/F3UGLWKHGZO4AGD.MEDIUM.jpg">
+   
+  </div>
+
+  <div class="column middle">
+    <h2>Yu-Gi-Oh Card Types</h2>
+
+    <p>A Normal monster is a standard monster that can be Normal or Tribute Summoned from the hand once per turn, as well as Special Summoned under certain conditions. Normal Monsters do not have effects of their own, instead bearing a description of the monster in its card description.</p>
+    <p>Effect monsters are similar to Normal monsters in the manner that they can be summoned, Effect Monsters have a special effect listed in its card description which can be used under its given conditions. Several of the other monster types listed below may also possess effects. While most Effect Monsters can be Normal or Tribute Summoned, some monsters may list specific summoning conditions in its card description.</p>
+  
+    <p>A Fusion monster is a monster that is summoned from the Extra Deck by using a card with a Fusion effect, such as "Polymerization", with monster cards listed in the Fusion Monster's description. The specific conditions, such as the types of monster required or where the material monsters are sent, vary depending on the Fusion Monster's effect.</p>
+
+    <p>A Ritual monster is a monster that is stored in the Main Deck and can be summoned from the player's hand by using a corresponding Ritual Spell Card and tributing monster cards from the hand and/or field according to the card's instructions.</p>
+
+    <p>A Synchro monster is a monster that is summoned from the Extra Deck by sending a "Tuner" type monster and one or more non-Tuner monsters from the field to the graveyard, whose total levels equal the level of the Synchro Monster you wish to summon. Under normal conditions, only one Tuner Monster can be used per Synchro Summoning (that is to say, a player cannot perform a Synchro Summon using only Tuner Monsters). Some Synchro Monsters may require certain types of monster to be used as Synchro material.</p>
+
+    <p>Xyz Monsters are summoned from the Extra Deck by "overlaying" multiple monsters (as described in the card's effect text) with the same level relevant to the Rank of the Xyz Monster the player wishes to summon. Material monsters are not sent to the graveyard but instead become "Xyz Material", which are placed underneath the Xyz Monster in the Monster Zone and sent to the graveyard in order to activate the Xyz Monster's effects. As Xyz Monsters possess Ranks instead of levels, they are unaffected by cards involving a monster's level and cannot be used for Ritual or Synchro Summoning, the exception to this rule being if they are artificially assigned a level via a card's effect. Some card effects, such as Rank Up Magic spell cards, also allow certain Xyz Monsters to be summoned on top of existing Xyz Monsters on the field.</p>
+
+    <p>Pendulum Monsters are variations of the above monster types, represented by a green gradient over each type's respective color. They are stored and summoned in the same manner as their original counterparts, but are sent to the Extra Deck face-up when they would be sent from the field to the Graveyard . During the Main Phase, players can place any Pendulum Monsters in their hand into any open Pendulum Zones, where they become treated as spell cards and can utilise a Pendulum Effect listed separately from any Monster Effects (some Pendulum cards may not necessarily possess a Pendulum Effect). Pendulum Monsters possess indicators known as "Scales", which are used to perform a Pendulum Summon. Once during a player's turn, if there are Pendulum Monsters with different Scales in both Pendulum Zones, the player may Special Summon multiple monsters from their hand, as well as any Pendulum Monsters face-up in the Extra Deck, whose levels are in between the two different Scale values. Pendulum Monsters that are stored in the Extra Deck face down must first be summoned using their respective summoning methods and can only be Pendulum Summoned when they are face-up in the Extra Deck.</p>
+
+    <p>Unlike other monsters, Link Monsters have no Level or Rank, but a "Link Number" and can be summoned from the Extra Deck by tributing a number of Link Material Monsters listed on the card equal or larger than the Link Number and have "Link Markers", arrows pointing to at least one of eight directions (forward, backward, left, right and the four diagonals) in the same number as the Link Number. A Link Monster in the field with a Link Number of 2 or more can be used to replace an equal or lower number of Link Materials for another Link Summon if eligible. At first, Link Monsters can only be summoned in the Extra Monster Card Zone, but as long it is on the field, any monster Main Monster Card Zone pointed by a Link Marker becomes "linked", and linked Monster Card Zones can be used to summon any kind of monster, including other Link Monsters. If two Link Monsters share Link Markers pointed at each other, they are considered "mutually linked." Mutual Links play into the effects of certain link monsters. Link Monsters also have no DEF points and thus can not be placed in Defense Position.</p>
+
+    <p>Tokens are commonly a low-powered monster that is stored outside of the playing area and can only be summoned through a card effect, typically used for defense or tribute purposes. The type, attribute, level, ATK, and DEF of Token Monsters are determined by the description of the card that summoned them. Token Monsters can only exist on the field and are removed from the game when leaving the field (unlike standard cards, Token Monsters are not sent to the Banished pile). As Xyz Material is not considered to be on the field, Token Monsters cannot be used for Xyz Summoning. In addition to official Token Monster cards, players may also use other objects such as coins or card sleeves to represent Token Monsters, provided they can be positioned in a way that can represent both Attack and Defense positions.</p>
+    
+    <p>These are spell cards that can be played either directly from the hand, or set on the field face down for later use. They can either power up your monsters attack/defense, destroy other cards, increase life points, draw cards, increase a monster's level etc. Additionally, Pendulum Monsters are treated as spell cards when placed inside Pendulum Zones, during which the player can activate its described Pendulum Effect.</p>
+
+    <p>Normal Spells are standard cards which can be activated during a player's Main phases and is sent to the graveyard after activation. They may not be used during an opponent's turn.</p>
+    <p>Quick Play Spells are cards that can be used outside of the main phase during a player's turn, or can be set on the field to use during an opponent's turn, similar to a trap card.</p>
+    <p>Continuous Spells are cards with a continuous fact that remains on field until it is destroyed or certain conditions are fulfilled.</p>
+    <p>Equip Spells are spells which are equipped to one of either player's monsters, altering its stats or providing an effect. If a monster equipped with an Equip Spell is removed from the field or flipped face down, the spell card is sent to the graveyard.</p>
+    <p>Field Spells are cards that are placed in the Field Spell Zone, causing effects that affect both players. Following revisions made in 2014, both players can each control one Field Spell card. Players can send their active Field Spell card to the Graveyard in order to play a new one.</p>
+    <p>Ritual spells are cards that are used for summoning Ritual Monsters, describing the conditions needed to summon them.</p>
+  
+    <p>Trap cards that are activated in response to certain situations, most often when an opponent activates an effect or attacks. They are set face down on the field and cannot be activated on the turn they were placed down under normal conditions (some card effects may allow this). Some are used to destroy an attacking monster, negate battle damage, or possibly redirect damage back to the opponent, though, these effects may differ.
+
+    <p>Normal Traps are standard trap card. Certain normal traps may be treated as Equip cards but are still considered normal trap cards.</p>
+    <p>Continuous Traps upon activation, their effects remains in play until its destruction circumstances are fulfilled.</p>
+    <p>Counter Trap cards can be activated in response to the activation of other trap cards. Once a Counter trap is activated, no cards except for other Counter traps may be activated in response to it.</p>
+
+  </div>
+  <div class="column side">
+    <img class="columnimage2" src="http://www.cielsolade.com/wp-content/uploads/2015/11/pillar.png">
+    <img class="columnimage2" src="http://vignette3.wikia.nocookie.net/yugioh/images/1/15/FiveHeadedDragon-MIL1-EN-C-1E.png/revision/latest?cb=20160415070911">
+
+  </div>
+</div>
+
+</body>
+</html>
