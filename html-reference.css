@@ -1,1 +1,29 @@
 
+.theadstyle {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.tablestyle {
+  background-color: yellow;
+  font: bold 15px arial, san-serif;
+}
+
+.headstyle {
+  text-align: center;
+  background-color: green;
+  color:white;
+}
+
+.descriptions {
+  font: bold 15px arial, san-serif;
+}
+
+.examples {
+  background-color:white;
+  border-left: 3px solid green;
+  padding-left:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Courier New", san-serif;
+}
